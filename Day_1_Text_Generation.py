@@ -17,5 +17,5 @@ output = generator(
     repetition_penalty=1.2
 )
 
-print('Generated text:')
+print('\n<------- Generated text: ------->')
 print(output[0]['generated_text'])
