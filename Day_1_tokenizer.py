@@ -3,6 +3,8 @@ from transformers import GPT2Tokenizer
 # Load a pre-trained tokenizer from GPT2
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 
+# print(tokenizer("Mumbai is the capital of Maharashtra")["input_ids"])
+
 # Define some text to test upon
 text = "Mumbai is in India"
 
